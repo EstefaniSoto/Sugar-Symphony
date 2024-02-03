@@ -1,0 +1,11 @@
+.bg-featured{
+    background-color: var(--bg-light);
+    width: 100vw;
+}
+.cake_title{
+    padding-top: 5rem;
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 8rem;
+    line-height: 4rem;
+}
