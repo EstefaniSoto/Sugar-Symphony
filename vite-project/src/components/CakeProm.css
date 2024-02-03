@@ -1,0 +1,47 @@
+.cakeshop-container{
+    background-color: var(--bg-light);
+}
+
+.cakeshopimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+}
+.cakeshop{
+    width: 100vw;
+    margin-top: 1rem;
+}
+.cakeshop-text{
+    width: 100vw;
+    margin-top: 0;
+}
+.color-span{
+    color: var(--color-hover);
+    font-size: 12vw;
+}
+.cakeshop-text{
+    padding-left: 1rem;
+}
+.cakeshop-text > p{
+    padding-right: 1rem;
+}
+h1{
+
+    font-size: 12vw;
+    color: var(--color);
+    font-weight: 800;
+}
+.learn-btn{
+    background-color: var(--color-hover);
+    border: 0;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    color: var(--bg-light);
+    border-radius:2rem ;
+    transition: all .5s;
+    margin-bottom: 2rem;
+   
+}

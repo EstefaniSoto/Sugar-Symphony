@@ -1,0 +1,51 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../assets/img/bg-opacity.png');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 100vw;
+}
+.cupcake_img{
+    width: 100vw;
+    
+
+}
+.card-container-pt3{
+     padding: 0 2rem 2rem 2rem;
+}
+.card-pt3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--bg-light);
+    border-radius: 1rem;
+    padding: 2rem;
+  
+}
+.main-p{
+    padding-bottom: 1.5rem;
+}
+.list{
+    column-count:2;
+    margin-left: 1rem;
+}
+.list > li{
+    color: var(--color);
+    padding-bottom: 1rem;
+}
+.list > li::marker{
+    color: var(--color-hover);
+}
+.title_text-1{
+    font-size: 2.5rem;
+    color: var(--color);
+    font-weight: 800;
+}
+.title_text-2{
+    font-size: 2.5rem;
+    color: var(--color-hover);
+    font-weight: 800;
+}

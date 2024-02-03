@@ -1,0 +1,23 @@
+.wcu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color);
+    width: 100vw;
+
+}
+
+.rollcake{
+    width: 80vw;
+}
+
+.wcu{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.p-description{
+    padding: 1rem;
+    text-align: center;
+}

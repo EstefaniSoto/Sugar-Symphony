@@ -1,0 +1,65 @@
+.title_and_img{
+    display: flex;
+}
+.location-logo{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+    
+}
+.card-location-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100vw;
+}
+.card-location{
+   background-color: var(--bg-light);
+   box-shadow: 0 0 1rem 0.09rem #f5cece ;
+   border-radius: 5%;
+    padding: 2rem;
+    color: var(--color);
+    margin-bottom: 3rem;
+}
+.title_location{
+    padding-bottom: 1rem;
+}
+.title_hr{
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+.hours{
+    padding-bottom: 1.5rem;
+}
+.hours_2{
+    padding-bottom: 1rem;
+}
+.hours, .hours_2{
+    color: var(--color-hover);
+}
+
+.see_map{
+    background-color: var(--color-hover);
+    color: var(--bg-light);
+    border: none;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 4rem;
+    margin-top: 1rem;
+}
+.title{
+    text-align: center;
+    line-height: 3.5rem;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+}
+.location_pic{
+    display: flex;
+    margin-bottom: 3rem;
+    border-radius: 0.5rem;
+    width: 85vw;
+    
+}
