@@ -1,0 +1,37 @@
+.newsletter_title{
+    text-align: center;
+ 
+}
+.newsletter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-image: url('../assets/img/hover-img.png');
+    margin-top: 3rem;
+    padding: 3rem;
+
+}
+#emailAddress{
+width: 20rem;
+margin-bottom: 0.5rem;
+border: thin solid var(--color-hover);
+height: 2.5rem;
+padding: 1rem;
+border-radius: 0.5rem;
+
+}
+.sub-btn{
+    width: 10rem;
+    background-color: #fff;
+    border: thin solid var(--color-hover);
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    color: var(--color-hover);
+    font-weight: 600;
+    transition: all .5s;
+}
+.sub-btn:hover{
+    background-color: var(--color-hover);
+    color: #fff;
+}
