@@ -12,6 +12,8 @@ import Location from './components/Location'
 import Experience from './components/Experience'
 import Customers from './components/CustomersCards'
 import Newsletter from './components/Newsletter'
+import Story from './components/Story_Cards'
+
 
 function App() {
   const setData = Data.map(e => {
@@ -35,6 +37,7 @@ function App() {
     <Experience/>
     <Customers/>
     <Newsletter/>
+    <Story/>
 
     </>
   )

@@ -1,0 +1,51 @@
+.StoryCard{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    
+
+}
+
+.StoryCards{
+    position: relative;
+}
+
+.StoryCard_Container{
+    background-color: #fff;
+    box-shadow: 0 0 0.7rem 0.09rem #f5cece ;
+    margin: 2rem;
+    border-radius: 1rem;
+   
+
+}
+.picture{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 20.5rem;
+    height: 15rem;
+}
+.all_text{
+padding: 2rem;
+}
+.all_text > h3{
+    padding-bottom: 0.5rem;
+}
+.all_text > p{
+    padding-bottom: 0.5rem;
+}
+.all_text > a{
+    text-decoration: none;
+   color: var(--color-hover);
+}
+.date{
+    position: absolute;
+    width: 4rem;
+    text-align: center;
+    top: 0;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: var(--color-hover);
+    color: #fff;
+    padding: 0.5rem;
+}

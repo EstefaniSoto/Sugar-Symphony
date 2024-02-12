@@ -8,13 +8,14 @@ function Hero() {
     <>
     <div className="cake-container">
         <img className="cake" src={heroimg} alt="" />
-    </div>
-
-    <div className="hero-text">
+        <div className="hero-text">
       <h1><span className='color-span'>Poppin´</span> Fresh Cake Shop</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora neque vitae magnam ab dolores sed.</p>
       <button className='try-btn'>Try it Now</button>
     </div>
+    </div>
+
+    
 
 
 
