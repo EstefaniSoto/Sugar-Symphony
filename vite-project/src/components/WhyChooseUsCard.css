@@ -18,3 +18,11 @@
     margin-top: 0.4rem;
     
 }
+
+.texts > p{
+    padding-right: 1.5rem;
+}
+
+@media screen and (min-width: 1024px){
+    
+}

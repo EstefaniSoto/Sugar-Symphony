@@ -36,3 +36,38 @@ h1{
     transition: all .5s;
     margin-bottom: 3rem;
 }
+/*Desktop screen*/
+
+@media screen and (min-width: 1024px){
+
+    .cake-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+     
+    }
+    
+    .cake{
+        width: 30vw;
+        margin-top: 2rem;
+    
+    }
+
+    .hero-text > h1{
+        font-size: 5rem;
+    }
+
+    .color-span{
+        font-size: 5rem;
+    }
+
+
+
+
+
+
+
+
+}
