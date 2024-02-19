@@ -6,8 +6,8 @@ import Locationpic from '../assets/img/cake-shop-img.jpg'
 function Location() {
   return (
     <>
-    <h1 className="title">Our Shop <span>Location</span></h1>
     <section className="card-location-container">
+      <h1 className="title">Our Shop <span>Location</span></h1>
     <img src={Locationpic} alt="" className='location_pic'/>
       <div className="card-location">
         <div className="title_and_img">

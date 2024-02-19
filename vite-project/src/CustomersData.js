@@ -17,8 +17,8 @@ const CustomersDatabase = [
     },
     
     {
-        img_person: "src/assets/img/man1.jpg",
-        name: "Luis Lopez",
+        img_person: "src/assets/img/man-1.jpg",
+        name: "Rafael Ovando",
         description: "Elevate your taste buds with our irresistible cupcake—a miniature delight with a tender crumb and decadent frosting. Perfectly sweet for any moment, it's sure to satisfy your cravings in every bite.",
         occupation: "Software Developer"
        

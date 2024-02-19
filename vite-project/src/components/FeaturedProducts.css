@@ -14,16 +14,17 @@
     text-align: center;
     border-radius: 1rem;
     background-image: url('../assets/img/hover-img.png');
-    height: 27rem;
-    width: 20rem;
+    height: 50vh;
+    width: 80vw;
     gap: 0.5rem;
+    padding: 1rem;
     color: #ffffff;
     margin-bottom: 5rem;
     margin-top: -5rem;
     
 }
 .img-use{
-    width: 7rem;
+    width: 25vw;
     background-color: #fff;
     padding: 1rem;
     border-radius: 50%;
@@ -31,9 +32,14 @@
 .check-it{
     background-color: #fff;
     border: none;
-    width: 8rem;
-    height: 3rem;
+    width: 40vw;
+    height: 8vh;
+    max-height: 3rem;
+    max-width: 10rem;
     border-radius: 3rem;
     color:#F1BCBF;
+}
+.card-pt2 > h2{
+    font-size: 7vw;
 }
 

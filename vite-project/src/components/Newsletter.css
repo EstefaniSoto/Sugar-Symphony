@@ -10,10 +10,12 @@
     background-image: url('../assets/img/hover-img.png');
     margin-top: 3rem;
     padding: 3rem;
+    width: 100vw;
 
 }
 #emailAddress{
-width: 20rem;
+max-width: 20rem;
+width: 80vw;
 margin-bottom: 0.5rem;
 border: thin solid var(--color-hover);
 height: 2.5rem;
