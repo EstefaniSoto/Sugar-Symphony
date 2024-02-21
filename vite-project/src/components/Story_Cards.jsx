@@ -9,6 +9,10 @@ function Story_Cards() {
   })
   return (
     <>
+    <div className="text-container">
+   <h1>Story <span>Around Us</span></h1>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores dolore iure non, quasi asperiores eos recusandae amet! Labore, modi animi.</p>
+   </div>
     {StoryMap}
     </>
     )
